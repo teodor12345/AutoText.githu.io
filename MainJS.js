@@ -21,4 +21,4 @@ function writeText(){
 }
 
 
-speedEl.addEventListener('input', (e) => speed = 300 / e)
+speedEl.addEventListener('input', (e) => speed = 300 / e. target.value)
